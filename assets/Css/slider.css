@@ -1,0 +1,106 @@
+.slick-slider {
+    margin-bottom: 30px;
+}
+
+.slick-dots {
+    position: absolute;
+    bottom: -30px;
+    display: block;
+    width: 100%;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+.slick-dots li {
+    position: relative;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+    padding: 0;
+
+    cursor: pointer;
+}
+
+.slick-dots li button {
+    font-size: 0;
+    line-height: 0;
+    display: block;
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    cursor: pointer;
+    color: transparent;
+    border: 0;
+    outline: none;
+    background: transparent;
+}
+
+.slick-dots li button:hover,
+.slick-dots li button:focus {
+    outline: none;
+}
+
+.slick-dots li button:hover:before,
+.slick-dots li button:focus:before {
+    opacity: 1;
+}
+
+.slick-dots li button:before {
+    content: " ";
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 12px;
+    height: 12px;
+    text-align: center;
+    opacity: .25;
+    background-color: black;
+    border-radius: 50%;
+
+}
+
+.slick-dots li.slick-active button:before {
+    opacity: .75;
+    background: #345DAA;
+}
+
+.slick-dots li button.thumbnail img {
+    width: 0;
+    height: 0;
+}
+/* banner slider */
+/* .ec-sliderRole .slick-prev.pull-left.slick-arrow,
+.ec-sliderRole .slick-next.pull-right.slick-arrow {
+    position: absolute;
+    top: 41%;
+    z-index: 9999;
+    outline: none;
+    background: no-repeat;
+    border: none;
+}
+.ec-sliderRole .slick-prev.pull-left.slick-arrow {
+    left: -27px;
+}
+.ec-sliderRole .slick-next.pull-right.slick-arrow {
+    right: -27px;
+} */
+
+/* recommended item slider */
+.slick-prev.pull-left.slick-arrow,
+.slick-next.pull-right.slick-arrow {
+    position: absolute;
+    top: 41%;
+    z-index: 9999;
+    outline: none;
+    background: no-repeat;
+    border: none;
+}
+.slick-prev.pull-left.slick-arrow {
+    left: -27px;
+}
+.slick-next.pull-right.slick-arrow {
+    right: -27px;
+}

@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+input,
+textarea,
+select,
+button {
+  outline: none;
+}
+
+input {
+  line-height: normal;
+}
+
+button {
+  max-width: 100%;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  font-size: 15px;
+  color: #101828;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  background-color: #ffffff;
+}
+
+.container {
+  max-width: 1110px;
+  width: 100%;
+  padding: 0px;
+}
+
+.button {
+  background: #345DAA;
+  border: none;
+  border-radius: 999px;
+  padding: 12px 40px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 32px;
+  color: #FFFFFF;
+}
+
+.header {
+  padding-top: 15px;
+  padding-bottom: 2px;
+  border-bottom: 1px solid rgb(175, 174, 174);
+}
+.header-element {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 14px;
+}
+.header-element-link {
+  font-style: normal;
+}
+.header-element-link a {
+  color: #345DAA;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  text-decoration: none;
+}
+.header-nav {
+  border-top: 1px solid rgb(175, 174, 174);
+}
+.header-nav ul li {
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 38px;
+  color: #101828;
+}
+.header-nav ul a {
+  text-decoration: none;
+}
+
+.footer {
+  background: #DAE4F5;
+}
+.footer-element {
+  padding-bottom: 45px;
+}
+.footer-element-image {
+  padding-top: 40px;
+}
+.footer-element-menu {
+  margin-top: 29.5px;
+  margin-right: 15px !important;
+}
+.footer-element-menu-left {
+  border-right: 2px dashed #E87400;
+}
+.footer-element-menu-left-detail li {
+  font-size: 16px;
+  line-height: 29px;
+  font-weight: 500;
+  color: #101828;
+  padding: 5px 0px;
+}
+.footer-element-menu-left-detail li a:hover {
+  text-decoration: none;
+}
+.footer-element-menu-right {
+  display: flex;
+  justify-content: center;
+}
+.footer-element-menu-right-detail li {
+  font-size: 16px;
+  line-height: 29px;
+  font-weight: 600;
+  padding: 5px 0px;
+}
+.footer-element-menu-right-detail li a {
+  color: #345DAA;
+}
+.footer-element-menu-right-detail li a:hover {
+  text-decoration: none;
+  color: #6388ce;
+}
+.footer-copy-right {
+  height: 40px;
+  bottom: 0px;
+  background: #345DAA;
+  padding: 8px 10px;
+  display: flex;
+  justify-content: center;
+}
+.footer-copy-right p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+
+/*# sourceMappingURL=common.css.map */
